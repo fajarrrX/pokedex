@@ -1,30 +1,27 @@
-import { StatusBar } from "expo-status-bar";
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
-import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import { Home, Detail, SplashScreen } from "./src/screens";
+import { Home, OnBoardingScreen } from "./src/screens";
+import { StatusBarComponent } from "./src/components";
 
 const Stack = createStackNavigator();
-const Tab = createBottomTabNavigator();
-
-function LandingPage() {
-  return (
-    <Tab.Navigator>
-      <Tab.Screen name="Home" component={Home} />
-      <Tab.Screen name="Detail" component={Detail} />
-    </Tab.Navigator>
-  );
-}
 
 export default function App() {
   return (
     <NavigationContainer>
-      <StatusBar style="auto" />
+      <StatusBarComponent backgroundColor="#fff" barStyle="dark-content" />
       <Stack.Navigator>
-        <Stack.Screen name="LandingPage" component={LandingPage} options={{ headerShown: false }}/>
-        <Stack.Screen name="SplashScreen" component={SplashScreen} options={{ headerShown: false }}/>
+        <Stack.Screen
+          name="OnBoardingScreen"
+          component={OnBoardingScreen}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="Home"
+          component={Home}
+          options={{ headerShown: false }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
