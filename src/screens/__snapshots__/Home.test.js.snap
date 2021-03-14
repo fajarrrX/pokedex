@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home snapShot 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "marginTop": 0,
+        "position": "absolute",
+        "width": "100%",
+        "zIndex": 1,
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      onChangeText={[Function]}
+      placeholder="Search Pokemons"
+      rejectResponderTermination={true}
+      style={
+        Object {
+          "borderColor": "#dbdbdb",
+          "borderRadius": 10,
+          "borderWidth": 1,
+          "height": 40,
+          "textAlign": "center",
+          "width": "100%",
+        }
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+  </View>
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+            "flexWrap": "wrap",
+            "justifyContent": "center",
+            "marginTop": 50,
+          }
+        }
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;
