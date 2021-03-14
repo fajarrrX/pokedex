@@ -21,12 +21,12 @@ This repository is mobile apps development using React Native and Expo for devel
 
 ### Onboarding UI
 
-![Onboarding UI]()
+![Onboarding UI](https://raw.githubusercontent.com/fajarrrX/pokedex/development/assets/screenshot/onboard1.jpeg?token=ARFLOYK56CBDSKXXJPKNWHTAJV4QK) (https://raw.githubusercontent.com/fajarrrX/pokedex/development/assets/screenshot/onboard2.jpeg?token=ARFLOYPZUCFDD6C24QGF4J3AJV4RO) (https://raw.githubusercontent.com/fajarrrX/pokedex/development/assets/screenshot/onboard3.jpeg?token=ARFLOYN5ZMPZCK3MBKXEAILAJV4RU)
 
 ### Home/Feed Screen UI
 
-![Home/Feed Screen UI]()
+![Home/Feed Screen UI](https://raw.githubusercontent.com/fajarrrX/pokedex/development/assets/screenshot/home.jpeg?token=ARFLOYMGMBUKTB24HQ4MJBDAJV4R6)
 
 ### Search Screen UI
 
-![Search Screen UI]()
+![Search Screen UI](https://raw.githubusercontent.com/fajarrrX/pokedex/development/assets/screenshot/search.jpeg?token=ARFLOYPVVRJ5AJIPSNECUADAJV4SG)
